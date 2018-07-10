@@ -10,9 +10,17 @@ Mother's day is coming up, and you've been hired by Hallmark to develop some e-c
 
 Define a method, `mothers_day`, that returns a string that says `"Happy Mother's Day, Mom!"`
 
+def mothers_day(name="Mom")
+  "Happy Mother's Day, Mom!"
+end
+
 ### Step 2 - a method with arguments
 
 Your mothers day method is great, but it can only wish a Happy Mother's Day to Mom! Some of your customers want to wish a Happy Mother's Day to their grandmothers, sisters, and friends. Update your method so that it takes in a name and returns a personalized greeting. For example, calling `mothers_day("Beyonce")` should return `"Happy Mother's Day, Beyonce!"`
+
+def mothers_day(name)
+  puts "Happy Mother's Day, #{name}"
+end
 
 ### Step 3 - a method with default arguments
 
@@ -20,7 +28,9 @@ Your new method is great, but there's just one problem - all of the people who w
 
 **For your solution, place your single method inside `mothers_day.rb`.**
 
-
+def mothers_day(name="Mom")
+  puts "Happy Mother's Day, #{name}!"
+end 
 ### Bonus: 
 
 
