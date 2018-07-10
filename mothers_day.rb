@@ -1,4 +1,4 @@
 ## Define your method, mothers_day, below. Go through the README and update your method as needed!
 def mothers_day
-  print "Happy Mother's Day, Mom!"
+  return "Happy Mother's Day, Mom!"
 end
